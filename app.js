@@ -39,4 +39,4 @@ mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true })
 mongoose.connection.on('error', (error) => console.error(error))
 mongoose.connection.once('open', () => console.log('Connected to Database'))
 
-app.listen(8080)
+app.listen(3001)
